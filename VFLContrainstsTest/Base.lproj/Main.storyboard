@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vPJ-lz-4kM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="test1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dRn-Nc-VLJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="puu-EM-ary"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u9g-Eu-Ueh">
+                                <rect key="frame" x="59" y="41" width="55" height="30"/>
+                                <color key="backgroundColor" red="0.15073487487497472" green="1" blue="0.022943196429681789" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DPj-LZ-GkG">
+                                <rect key="frame" x="59" y="93" width="55" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.48955313254500943" blue="0.37865185651795241" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQO-90-Osn">
+                                <rect key="frame" x="59" y="138" width="55" height="30"/>
+                                <color key="backgroundColor" red="0.53828712540532064" green="0.65349322653238517" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button3">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95772595028611052" green="0.93564642632612915" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="gQO-90-Osn" firstAttribute="top" secondItem="DPj-LZ-GkG" secondAttribute="bottom" constant="15" id="1kQ-Mu-vgB"/>
+                            <constraint firstItem="DPj-LZ-GkG" firstAttribute="leading" secondItem="u9g-Eu-Ueh" secondAttribute="leading" id="9W8-6J-Y70"/>
+                            <constraint firstItem="u9g-Eu-Ueh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="43" id="QxF-Td-vgn"/>
+                            <constraint firstItem="gQO-90-Osn" firstAttribute="leading" secondItem="DPj-LZ-GkG" secondAttribute="leading" id="Sao-fr-zl0"/>
+                            <constraint firstItem="u9g-Eu-Ueh" firstAttribute="top" secondItem="dRn-Nc-VLJ" secondAttribute="bottom" constant="21" id="kVF-0y-ObK"/>
+                            <constraint firstItem="DPj-LZ-GkG" firstAttribute="top" secondItem="u9g-Eu-Ueh" secondAttribute="bottom" constant="22" id="xQ8-nd-jtw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button1" destination="u9g-Eu-Ueh" id="HZT-TS-T1Q"/>
+                        <outlet property="button2" destination="DPj-LZ-GkG" id="MPX-Dz-Oe0"/>
+                        <outlet property="button3" destination="gQO-90-Osn" id="scj-DL-W0Q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="348" y="715.99999999999989"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="apS-mU-z8X">
+            <objects>
+                <viewController storyboardIdentifier="test2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vPJ-lz-4kM" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="osI-yu-YbT"/>
+                        <viewControllerLayoutGuide type="bottom" id="4nE-u4-mM3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1h8-75-qME">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.99295029526445655" blue="0.80302371998307787" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uHt-mn-Udt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="573" y="415.99999999999994"/>
+        </scene>
+    </scenes>
+</document>
